@@ -1,0 +1,9 @@
+# Files a `vercel deploy` from this folder must never upload. Vercel builds
+# from source, so the Blender working files and local builds stay home.
+build
+dist
+*.blend
+*.blend1
+.env*
+.DS_Store
+.playwright-mcp
